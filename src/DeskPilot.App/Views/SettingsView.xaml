@@ -19,18 +19,26 @@
             <Border Background="{DynamicResource BgSecondary}"
                     CornerRadius="8" Padding="16" Margin="0,0,0,24">
                 <StackPanel>
-                    <CheckBox x:Name="AiEnabled" Content="启用 AI 整理"
+                    <CheckBox x:Name="AiEnabledCheck" Content="启用 AI 整理"
                               Foreground="{DynamicResource TextPrimary}" Margin="0,0,0,12"/>
                     <TextBlock Text="Base URL" FontSize="12"
                                Foreground="{DynamicResource TextSecondary}" Margin="0,0,0,4"/>
-                    <TextBox x:Name="AiBaseUrl" Padding="8" Margin="0,0,0,12"/>
+                    <TextBox x:Name="AiBaseUrlBox" Padding="8" Margin="0,0,0,12"
+                             Background="{DynamicResource BgTertiary}"
+                             Foreground="{DynamicResource TextPrimary}"/>
                     <TextBlock Text="API Key" FontSize="12"
                                Foreground="{DynamicResource TextSecondary}" Margin="0,0,0,4"/>
-                    <PasswordBox x:Name="AiApiKey" Padding="8" Margin="0,0,0,12"/>
-                    <Button Content="保存" Padding="12,6" HorizontalAlignment="Left"
+                    <PasswordBox x:Name="AiApiKeyBox" Padding="8" Margin="0,0,0,12"/>
+                    <TextBlock Text="Model Name" FontSize="12"
+                               Foreground="{DynamicResource TextSecondary}" Margin="0,0,0,4"/>
+                    <TextBox x:Name="AiModelBox" Padding="8" Margin="0,0,0,12"
+                             Background="{DynamicResource BgTertiary}"
+                             Foreground="{DynamicResource TextPrimary}"/>
+                    <Button x:Name="SaveAiButton" Content="保存" Padding="12,6" HorizontalAlignment="Left"
                             Background="{DynamicResource AccentPrimary}"
                             Foreground="{DynamicResource TextInverse}"
-                            BorderThickness="0"/>
+                            BorderThickness="0"
+                            Click="SaveAiButton_Click"/>
                 </StackPanel>
             </Border>
 
@@ -43,10 +51,11 @@
                 <StackPanel>
                     <TextBlock x:Name="LarkStatusText" Text="未连接"
                                Foreground="{DynamicResource TextSecondary}" Margin="0,0,0,12"/>
-                    <Button Content="连接飞书" Padding="12,6"
+                    <Button x:Name="ConnectLarkButton" Content="连接飞书" Padding="12,6"
                             Background="{DynamicResource AccentPrimary}"
                             Foreground="{DynamicResource TextInverse}"
-                            BorderThickness="0"/>
+                            BorderThickness="0"
+                            Click="ConnectLarkButton_Click"/>
                 </StackPanel>
             </Border>
 
@@ -58,11 +67,14 @@
                     CornerRadius="8" Padding="16" Margin="0,0,0,24">
                 <StackPanel>
                     <RadioButton x:Name="ThemeLight" Content="浅色"
-                                 Foreground="{DynamicResource TextPrimary}" Margin="0,0,0,8"/>
+                                 Foreground="{DynamicResource TextPrimary}" Margin="0,0,0,8"
+                                 Checked="ThemeLight_Checked"/>
                     <RadioButton x:Name="ThemeDark" Content="深色"
-                                 Foreground="{DynamicResource TextPrimary}" Margin="0,0,0,8"/>
+                                 Foreground="{DynamicResource TextPrimary}" Margin="0,0,0,8"
+                                 Checked="ThemeDark_Checked"/>
                     <RadioButton x:Name="ThemeSystem" Content="跟随系统"
-                                 Foreground="{DynamicResource TextPrimary}"/>
+                                 Foreground="{DynamicResource TextPrimary}"
+                                 Checked="ThemeSystem_Checked"/>
                 </StackPanel>
             </Border>
 
@@ -73,7 +85,8 @@
             <Border Background="{DynamicResource BgSecondary}"
                     CornerRadius="8" Padding="16" Margin="0,0,0,24">
                 <CheckBox x:Name="AutoStartCheckBox" Content="启用开机自启动"
-                          Foreground="{DynamicResource TextPrimary}"/>
+                          Foreground="{DynamicResource TextPrimary}"
+                          Checked="AutoStartCheckBox_Changed"/>
             </Border>
         </StackPanel>
     </ScrollViewer>
