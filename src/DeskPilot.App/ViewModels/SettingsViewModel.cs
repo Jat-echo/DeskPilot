@@ -77,8 +77,16 @@ public partial class SettingsViewModel : ObservableObject
 
     private async Task CheckLarkStatusAsync()
     {
-        IsLarkConnected = await _larkCliService.IsLoggedInAsync();
-        LarkVersion = await _larkCliService.GetVersionAsync() ?? "未知";
+        try
+        {
+            IsLarkConnected = await _larkCliService.IsLoggedInAsync();
+            LarkVersion = await _larkCliService.GetVersionAsync() ?? "未安装";
+        }
+        catch
+        {
+            IsLarkConnected = false;
+            LarkVersion = "未安装";
+        }
     }
 
     [RelayCommand]

@@ -46,18 +46,25 @@ public partial class DashboardViewModel : ObservableObject
 
     private async Task LoadDataAsync()
     {
-        var files = await _scannerService.ScanDesktopAsync();
-        TotalFiles = files.Count;
-        ImageCount = files.Count(f => f.Category == FileCategory.Image);
-        DocumentCount = files.Count(f => f.Category == FileCategory.Document);
-
-        IsLarkConnected = await _larkCliService.IsLoggedInAsync();
-
-        if (IsLarkConnected)
+        try
         {
-            var tasks = await _larkCliService.GetTasksAsync(DateTime.Now, DateTime.Now.AddDays(14));
-            OverdueTaskCount = tasks.Count(t => !t.IsCompleted && t.DueTime < DateTime.Now);
-            TodayTaskCount = tasks.Count(t => !t.IsCompleted && t.DueTime?.Date == DateTime.Today);
+            var files = await _scannerService.ScanDesktopAsync();
+            TotalFiles = files.Count;
+            ImageCount = files.Count(f => f.Category == FileCategory.Image);
+            DocumentCount = files.Count(f => f.Category == FileCategory.Document);
+
+            IsLarkConnected = await _larkCliService.IsLoggedInAsync();
+
+            if (IsLarkConnected)
+            {
+                var tasks = await _larkCliService.GetTasksAsync(DateTime.Now, DateTime.Now.AddDays(14));
+                OverdueTaskCount = tasks.Count(t => !t.IsCompleted && t.DueTime < DateTime.Now);
+                TodayTaskCount = tasks.Count(t => !t.IsCompleted && t.DueTime?.Date == DateTime.Today);
+            }
+        }
+        catch
+        {
+            IsLarkConnected = false;
         }
     }
 
