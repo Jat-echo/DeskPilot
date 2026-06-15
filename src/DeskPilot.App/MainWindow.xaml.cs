@@ -14,36 +14,43 @@ public partial class MainWindow : Window
 
     private void NavDashboard_Checked(object sender, RoutedEventArgs e)
     {
+        if (ContentFrame == null) return;
         ContentFrame.Navigate(new DashboardView());
     }
 
     private void NavOrganize_Checked(object sender, RoutedEventArgs e)
     {
+        if (ContentFrame == null) return;
         ContentFrame.Navigate(new OrganizeView());
     }
 
     private void NavAiOrganize_Checked(object sender, RoutedEventArgs e)
     {
+        if (ContentFrame == null) return;
         ContentFrame.Navigate(new AiOrganizeView());
     }
 
     private void NavLog_Checked(object sender, RoutedEventArgs e)
     {
+        if (ContentFrame == null) return;
         ContentFrame.Navigate(new LogView());
     }
 
     private void NavTasks_Checked(object sender, RoutedEventArgs e)
     {
+        if (ContentFrame == null) return;
         ContentFrame.Navigate(new TaskView());
     }
 
     private void NavCalendar_Checked(object sender, RoutedEventArgs e)
     {
+        if (ContentFrame == null) return;
         ContentFrame.Navigate(new CalendarView());
     }
 
     private void NavSettings_Checked(object sender, RoutedEventArgs e)
     {
+        if (ContentFrame == null) return;
         ContentFrame.Navigate(new SettingsView());
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DeskPilot.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b2f6425e0bf597d63b7dc34f24f0ac984aee89d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21f3a03bd07bfebb6ba138eb9a5e0e5608e6193a")]
 [assembly: System.Reflection.AssemblyProductAttribute("DeskPilot.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DeskPilot.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

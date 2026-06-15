@@ -46,3 +46,4 @@ C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.App\bin\Debug\net8.0-windows\Sy
 C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.App\obj\Debug\net8.0-windows\App.baml
 C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.App\obj\Debug\net8.0-windows\Views\Components\DesktopWidgetWindow.baml
 C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.App\obj\Debug\net8.0-windows\Views\Components\DesktopWidgetWindow.g.cs
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.App\obj\Debug\net8.0-windows\DeskPilot.App.sourcelink.json

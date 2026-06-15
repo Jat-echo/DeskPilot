@@ -9,3 +9,4 @@ C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Core\obj\Debug\net8.0\DeskPilot
 C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Core\obj\Debug\net8.0\refint\DeskPilot.Core.dll
 C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Core\obj\Debug\net8.0\DeskPilot.Core.pdb
 C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Core\obj\Debug\net8.0\ref\DeskPilot.Core.dll
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Core\obj\Debug\net8.0\DeskPilot.Core.sourcelink.json

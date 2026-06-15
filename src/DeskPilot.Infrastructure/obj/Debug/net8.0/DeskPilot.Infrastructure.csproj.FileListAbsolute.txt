@@ -13,3 +13,4 @@ C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\obj\Debug\net8.0
 C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\obj\Debug\net8.0\refint\DeskPilot.Infrastructure.dll
 C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\obj\Debug\net8.0\DeskPilot.Infrastructure.pdb
 C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\obj\Debug\net8.0\ref\DeskPilot.Infrastructure.dll
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\obj\Debug\net8.0\DeskPilot.Infrastructure.sourcelink.json
