@@ -55,8 +55,16 @@ public partial class SettingsViewModel : ObservableObject
         _settingsService = new SettingsService();
         _larkCliService = new LarkCliService();
 
-        LoadSettings();
-        _ = CheckLarkStatusAsync();
+        try
+        {
+            LoadSettings();
+            _ = CheckLarkStatusAsync();
+        }
+        catch (Exception ex)
+        {
+            System.Diagnostics.Debug.WriteLine($"SettingsViewModel init failed: {ex.Message}");
+            LoadSettings();
+        }
     }
 
     private void LoadSettings()

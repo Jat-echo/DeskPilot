@@ -32,10 +32,16 @@ public class SettingsService : ISettingsService
         try
         {
             var json = File.ReadAllText(SettingsPath);
+            if (string.IsNullOrWhiteSpace(json))
+            {
+                _cachedSettings = new AppSettings();
+                return _cachedSettings;
+            }
             _cachedSettings = JsonSerializer.Deserialize<AppSettings>(json) ?? new AppSettings();
         }
-        catch
+        catch (Exception ex)
         {
+            System.Diagnostics.Debug.WriteLine($"Failed to load settings: {ex.Message}");
             _cachedSettings = new AppSettings();
         }
 
