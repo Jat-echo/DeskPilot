@@ -44,3 +44,5 @@ C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.App\obj\Debug\net8.0-windows\Vi
 C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.App\obj\Debug\net8.0-windows\Views\TaskView.g.cs
 C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.App\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
 C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.App\obj\Debug\net8.0-windows\App.baml
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.App\obj\Debug\net8.0-windows\Views\Components\DesktopWidgetWindow.baml
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.App\obj\Debug\net8.0-windows\Views\Components\DesktopWidgetWindow.g.cs
