@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DeskPilot.Infrastructure/1.0.0": {
+        "dependencies": {
+          "DeskPilot.Core": "1.0.0"
+        },
+        "runtime": {
+          "DeskPilot.Infrastructure.dll": {}
+        }
+      },
+      "DeskPilot.Core/1.0.0": {
+        "runtime": {
+          "DeskPilot.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DeskPilot.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DeskPilot.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

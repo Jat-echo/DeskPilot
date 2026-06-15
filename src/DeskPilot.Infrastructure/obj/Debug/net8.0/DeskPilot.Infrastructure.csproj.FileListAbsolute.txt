@@ -1,0 +1,15 @@
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\bin\Debug\net8.0\DeskPilot.Infrastructure.deps.json
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\bin\Debug\net8.0\DeskPilot.Infrastructure.dll
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\bin\Debug\net8.0\DeskPilot.Infrastructure.pdb
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\bin\Debug\net8.0\DeskPilot.Core.dll
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\bin\Debug\net8.0\DeskPilot.Core.pdb
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\obj\Debug\net8.0\DeskPilot.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\obj\Debug\net8.0\DeskPilot.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\obj\Debug\net8.0\DeskPilot.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\obj\Debug\net8.0\DeskPilot.Infrastructure.AssemblyInfo.cs
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\obj\Debug\net8.0\DeskPilot.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\obj\Debug\net8.0\DeskPilo.2FFE1A09.Up2Date
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\obj\Debug\net8.0\DeskPilot.Infrastructure.dll
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\obj\Debug\net8.0\refint\DeskPilot.Infrastructure.dll
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\obj\Debug\net8.0\DeskPilot.Infrastructure.pdb
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Infrastructure\obj\Debug\net8.0\ref\DeskPilot.Infrastructure.dll

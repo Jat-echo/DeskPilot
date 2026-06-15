@@ -1,0 +1,206 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.App\\DeskPilot.App.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.App\\DeskPilot.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.App\\DeskPilot.App.csproj",
+        "projectName": "DeskPilot.App",
+        "projectPath": "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.App\\DeskPilot.App.csproj",
+        "packagesPath": "C:\\Users\\nujoa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nujoa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.Core\\DeskPilot.Core.csproj": {
+                "projectPath": "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.Core\\DeskPilot.Core.csproj"
+              },
+              "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.Infrastructure\\DeskPilot.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.Infrastructure\\DeskPilot.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.2, )"
+            },
+            "Hardcodet.NotifyIcon.Wpf": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.422/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.Core\\DeskPilot.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.Core\\DeskPilot.Core.csproj",
+        "projectName": "DeskPilot.Core",
+        "projectPath": "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.Core\\DeskPilot.Core.csproj",
+        "packagesPath": "C:\\Users\\nujoa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nujoa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.422/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.Infrastructure\\DeskPilot.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.Infrastructure\\DeskPilot.Infrastructure.csproj",
+        "projectName": "DeskPilot.Infrastructure",
+        "projectPath": "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.Infrastructure\\DeskPilot.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\nujoa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nujoa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.Core\\DeskPilot.Core.csproj": {
+                "projectPath": "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.Core\\DeskPilot.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.422/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
