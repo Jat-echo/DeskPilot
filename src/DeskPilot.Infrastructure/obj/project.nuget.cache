@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GXUnpWJRTTY=",
+  "dgSpecHash": "7LxupYCMO0w=",
   "success": true,
   "projectFilePath": "C:\\Users\\nujoa\\Documents\\DeskPilot\\src\\DeskPilot.Infrastructure\\DeskPilot.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\nujoa\\.nuget\\packages\\system.security.cryptography.protecteddata\\10.0.9\\system.security.cryptography.protecteddata.10.0.9.nupkg.sha512"
+  ],
   "logs": []
 }

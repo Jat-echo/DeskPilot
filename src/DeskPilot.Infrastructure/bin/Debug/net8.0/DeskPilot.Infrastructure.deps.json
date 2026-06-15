@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v8.0": {
       "DeskPilot.Infrastructure/1.0.0": {
         "dependencies": {
-          "DeskPilot.Core": "1.0.0"
+          "DeskPilot.Core": "1.0.0",
+          "System.Security.Cryptography.ProtectedData": "10.0.9"
         },
         "runtime": {
           "DeskPilot.Infrastructure.dll": {}
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/10.0.9": {
+        "runtime": {
+          "lib/net8.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.926.27113"
+          }
         }
       },
       "DeskPilot.Core/1.0.0": {
@@ -29,6 +38,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "System.Security.Cryptography.ProtectedData/10.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vXp+vBQbTkMrDzUiPCxo1KvzfaAvZWuSRS2P7e5orhtV7ZuePKAB3Cqc9dH2YHUavRJyA2uWd2yrL6hl2VoJ5g==",
+      "path": "system.security.cryptography.protecteddata/10.0.9",
+      "hashPath": "system.security.cryptography.protecteddata.10.0.9.nupkg.sha512"
     },
     "DeskPilot.Core/1.0.0": {
       "type": "project",

@@ -107,3 +107,4 @@ C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Tests\obj\Debug\net8.0\refint\D
 C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Tests\obj\Debug\net8.0\DeskPilot.Tests.pdb
 C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Tests\obj\Debug\net8.0\DeskPilot.Tests.genruntimeconfig.cache
 C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Tests\obj\Debug\net8.0\ref\DeskPilot.Tests.dll
+C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.Tests\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
