@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\nujoa\Documents\DeskPilot\src\DeskPilot.App\App.xaml
-11407045341
+10-2060540727
 
-41581219620
-211-418449994
-MainWindow.xaml;
+201250527100
+211-359020220
+MainWindow.xaml;Themes\DarkTheme.xaml;Themes\LightTheme.xaml;Views\AiOrganizeView.xaml;Views\CalendarView.xaml;Views\DashboardView.xaml;Views\LogView.xaml;Views\OrganizeView.xaml;Views\SettingsView.xaml;Views\TaskView.xaml;
 
 False
 

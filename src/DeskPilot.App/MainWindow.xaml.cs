@@ -1,23 +1,49 @@
-﻿using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using DeskPilot.App.Views;
 
 namespace DeskPilot.App;
 
-/// <summary>
-/// Interaction logic for MainWindow.xaml
-/// </summary>
 public partial class MainWindow : Window
 {
     public MainWindow()
     {
         InitializeComponent();
+        ContentFrame.Navigate(new DashboardView());
+    }
+
+    private void NavDashboard_Checked(object sender, RoutedEventArgs e)
+    {
+        ContentFrame.Navigate(new DashboardView());
+    }
+
+    private void NavOrganize_Checked(object sender, RoutedEventArgs e)
+    {
+        ContentFrame.Navigate(new OrganizeView());
+    }
+
+    private void NavAiOrganize_Checked(object sender, RoutedEventArgs e)
+    {
+        ContentFrame.Navigate(new AiOrganizeView());
+    }
+
+    private void NavLog_Checked(object sender, RoutedEventArgs e)
+    {
+        ContentFrame.Navigate(new LogView());
+    }
+
+    private void NavTasks_Checked(object sender, RoutedEventArgs e)
+    {
+        ContentFrame.Navigate(new TaskView());
+    }
+
+    private void NavCalendar_Checked(object sender, RoutedEventArgs e)
+    {
+        ContentFrame.Navigate(new CalendarView());
+    }
+
+    private void NavSettings_Checked(object sender, RoutedEventArgs e)
+    {
+        ContentFrame.Navigate(new SettingsView());
     }
 }

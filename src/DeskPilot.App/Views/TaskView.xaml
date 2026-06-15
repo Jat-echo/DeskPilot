@@ -1,0 +1,29 @@
+<Page x:Class="DeskPilot.App.Views.TaskView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d"
+      Title="TaskView"
+      Background="{DynamicResource BgPrimary}">
+
+    <StackPanel Margin="24">
+        <TextBlock Text="飞书待办" FontSize="24" FontWeight="SemiBold"
+                   Foreground="{DynamicResource TextPrimary}" Margin="0,0,0,24"/>
+
+        <TextBox x:Name="NewTaskBox"
+                 Background="{DynamicResource BgTertiary}"
+                 Foreground="{DynamicResource TextPrimary}"
+                 Padding="12" Margin="0,0,0,16"/>
+
+        <Button Content="刷新" Margin="0,0,0,16"
+                Padding="12,6" HorizontalAlignment="Left"
+                Background="{DynamicResource AccentPrimary}"
+                Foreground="{DynamicResource TextInverse}"
+                BorderThickness="0"/>
+
+        <TextBlock Text="暂无待办"
+                   Foreground="{DynamicResource TextSecondary}"
+                   HorizontalAlignment="Center"/>
+    </StackPanel>
+</Page>

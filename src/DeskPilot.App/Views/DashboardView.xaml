@@ -1,0 +1,101 @@
+<Page x:Class="DeskPilot.App.Views.DashboardView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d"
+      Title="DashboardView"
+      Background="{DynamicResource BgPrimary}">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto" Padding="24">
+        <StackPanel>
+            <TextBlock Text="欢迎回来"
+                       FontSize="24" FontWeight="SemiBold"
+                       Foreground="{DynamicResource TextPrimary}"
+                       Margin="0,0,0,24"/>
+
+            <!-- Quick Actions -->
+            <TextBlock Text="快捷操作" FontSize="14" FontWeight="Medium"
+                       Foreground="{DynamicResource TextSecondary}" Margin="0,0,0,12"/>
+
+            <Grid Margin="0,0,0,24">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="16"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Organize Card -->
+                <Border Grid.Column="0" Background="{DynamicResource BgSecondary}"
+                        CornerRadius="8" Padding="16">
+                    <StackPanel>
+                        <TextBlock Text="📁 桌面整理" FontSize="14" FontWeight="Medium"
+                                   Foreground="{DynamicResource TextPrimary}" Margin="0,0,0,8"/>
+                        <TextBlock x:Name="FileCountText"
+                                   Text="检测到 0 个文件待整理"
+                                   FontSize="12"
+                                   Foreground="{DynamicResource TextSecondary}"
+                                   Margin="0,0,0,12"/>
+                        <Button Content="一键整理" Padding="12,6"
+                                Background="{DynamicResource AccentPrimary}"
+                                Foreground="{DynamicResource TextInverse}"
+                                BorderThickness="0"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- AI Organize Card -->
+                <Border Grid.Column="2" Background="{DynamicResource BgSecondary}"
+                        CornerRadius="8" Padding="16">
+                    <StackPanel>
+                        <TextBlock Text="💬 AI 整理" FontSize="14" FontWeight="Medium"
+                                   Foreground="{DynamicResource TextPrimary}" Margin="0,0,0,8"/>
+                        <TextBox x:Name="AiRequestBox"
+                                 Background="{DynamicResource BgTertiary}"
+                                 Foreground="{DynamicResource TextPrimary}"
+                                 Padding="8" Margin="0,0,0,8"/>
+                        <Button Content="发送" Padding="12,6"
+                                Background="{DynamicResource AccentPrimary}"
+                                Foreground="{DynamicResource TextInverse}"
+                                BorderThickness="0"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+
+            <!-- Status Overview -->
+            <TextBlock Text="状态概览" FontSize="14" FontWeight="Medium"
+                       Foreground="{DynamicResource TextSecondary}" Margin="0,0,0,12"/>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="16"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Task Summary -->
+                <Border Grid.Column="0" Background="{DynamicResource BgSecondary}"
+                        CornerRadius="8" Padding="16">
+                    <StackPanel>
+                        <TextBlock Text="✓ 今日待办" FontSize="14" FontWeight="Medium"
+                                   Foreground="{DynamicResource TextPrimary}" Margin="0,0,0,8"/>
+                        <TextBlock x:Name="OverdueText" Text="0 个逾期"
+                                   Foreground="{DynamicResource Error}" FontSize="12" Margin="0,0,0,4"/>
+                        <TextBlock x:Name="TodayText" Text="0 个今天到期"
+                                   Foreground="{DynamicResource Warning}" FontSize="12"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Calendar Summary -->
+                <Border Grid.Column="2" Background="{DynamicResource BgSecondary}"
+                        CornerRadius="8" Padding="16">
+                    <StackPanel>
+                        <TextBlock Text="📅 今日日程" FontSize="14" FontWeight="Medium"
+                                   Foreground="{DynamicResource TextPrimary}" Margin="0,0,0,8"/>
+                        <TextBlock x:Name="NextEventText" Text="暂无日程"
+                                   Foreground="{DynamicResource TextSecondary}" FontSize="12"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </StackPanel>
+    </ScrollViewer>
+</Page>
